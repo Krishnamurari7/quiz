@@ -1,0 +1,985 @@
+[
+  {
+    "title": "Sample Section",
+    "quizzes": [
+      {
+        "title": "General Knowledge Quiz",
+        "img": "/images/2.webp",
+        "difficulty": "Medium",
+        "questions": 15,
+        "plays": 200,
+        "quizQuestions": [
+          {
+            "question": "Who is the current Prime Minister of India?",
+            "image" : "/images/1.webp",
+            "options": [
+              "Narendra Modi",
+              "Rahul Gandhi",
+              "Amit Shah",
+              "Manmohan Singh"
+            ],
+            "answer": "Narendra Modi"
+          },
+          {
+            "question": "What is the capital of India?",
+            "image": "/images/2.webp",
+            "options": ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+            "answer": "New Delhi"
+          },
+          {
+            "question": "What is the largest planet in our solar system?",
+            "image": "/images/3.webp",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "answer": "Jupiter"
+          },
+          {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "image": "/images/4.webp",
+            "options": [
+              "Harper Lee",
+              "Mark Twain",
+              "Ernest Hemingway",
+              "F. Scott Fitzgerald"
+            ],
+            "answer": "Harper Lee"
+          },
+          {
+            "question": "What is the chemical symbol for gold?",
+            "image": "/images/5.webp",
+            "options": ["Au", "Ag", "Pb", "Fe"],
+            "answer": "Au"
+          },
+          {
+            "question": "What is the capital of France?",
+            "image": "/images/6.webp",
+            "options": ["Berlin", "Madrid", "Paris", "Rome"],
+            "answer": "Paris"
+          },
+          {
+            "question": "Who painted the Mona Lisa?",
+            "image": "/images/7.webp",
+            "options": [
+              "Vincent van Gogh",
+              "Pablo Picasso",
+              "Leonardo da Vinci",
+              "Claude Monet"
+            ],
+            "answer": "Leonardo da Vinci"
+          },
+          {
+            "question": "What is the largest mammal in the world?",
+            "image": "/images/8.webp",
+            "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+            "answer": "Blue Whale"
+          },
+          {
+            "question": "What is the currency of Japan?",
+            "image": "/images/9.webp",
+            "options": ["Yen", "Won", "Dollar", "Euro"],
+            "answer": "Yen"
+          },
+          {
+            "question": "Who discovered penicillin?",
+            "image": "/images/10.webp",
+            "options": [
+              "Alexander Fleming",
+              "Marie Curie",
+              "Louis Pasteur",
+              "Albert Einstein"
+            ],
+            "answer": "Alexander Fleming"
+          },
+          {
+            "question": "What is the capital of Australia?",
+            "image": "/images/10.webp",
+            "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+            "answer": "Canberra"
+          },
+          {
+            "question": "What is the largest planet in our solar system?",
+            "image": "/images/10.webp",
+            "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+            "answer": "Jupiter"
+          },
+          {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "image": "/images/10.webp",
+            "options": [
+              "Harper Lee",
+              "Mark Twain",
+              "Ernest Hemingway",
+              "F. Scott Fitzgerald"
+            ],
+            "answer": "Harper Lee"
+          },
+          {
+            "question": "What is the chemical symbol for gold?",
+            "image": "/images/10.webp",
+            "options": ["Au", "Ag", "Pb", "Fe"],
+            "answer": "Au"
+          },
+          {
+            "question": "What is the capital of France?",
+            "image": "/images/10.webp",
+            "options": ["Berlin", "Madrid", "Paris", "Rome"],
+            "answer": "Paris"
+          }
+        ]
+      },
+      {
+        "title": "Science Quiz",
+        "img": "/images/6.webp",
+        "difficulty": "Easy",
+        "questions": 10,
+        "plays": 150,
+        "quizQuestions": [
+          {
+            "question": "What is the chemical symbol for water?",
+            "image": "/images/8.webp",
+            "options": ["H2O", "CO2", "O2", "NaCl"],
+            "answer": "H2O"
+          },
+          {
+            "question": "What is the speed of light?",
+            "image": "/images/8.webp",
+            "options": [
+              "299,792,458 m/s",
+              "150,000,000 m/s",
+              "3,000,000 m/s",
+              "1,000,000 m/s"
+            ],
+            "answer": "299,792,458 m/s"
+          },
+          {
+            "question": "What is the chemical symbol for carbon dioxide?",
+            "image": "/images/8.webp",
+            "options": ["CO2", "O2", "H2O", "NaCl"],
+            "answer": "CO2"
+          },
+          {
+            "question": "What is the process by which plants make their food?",
+            "image": "/images/8.webp",
+            "options": [
+              "Photosynthesis",
+              "Respiration",
+              "Transpiration",
+              "Digestion"
+            ],
+            "answer": "Photosynthesis"
+          },
+          {
+            "question": "What is the basic unit of life?",
+            "image": "/images/8.webp",
+            "options": ["Atom", "Molecule", "Cell", "Tissue"],
+            "answer": "Cell"
+          },
+          {
+            "question": "What is the largest organ in the human body?",
+            "image": "/images/8.webp",
+            "options": ["Heart", "Liver", "Skin", "Lungs"],
+            "answer": "Skin"
+          }
+        ]
+      },
+      {
+        "title": "History Quiz",
+        "img": "/images/2.webp",
+        "difficulty": "Hard",
+        "questions": 12,
+        "plays": 180,
+        "quizQuestions": [
+          {
+            "question": "Who was the first President of the United States?",
+            "image": "/images/2.webp",
+            "options": [
+              "George Washington",
+              "Thomas Jefferson",
+              "Abraham Lincoln",
+              "John Adams"
+            ],
+            "answer": "George Washington"
+          },
+          {
+            "question": "What is the capital of Japan?",
+            "image": "/images/2.webp",
+            "options": ["Tokyo", "Seoul", "Beijing", "Bangkok"],
+            "answer": "Tokyo"
+          },
+          {
+            "question": "What is the largest continent in the world?",
+            "image": "/images/2.webp",  
+            "options": ["Asia", "Africa", "North America", "South America"],
+            "answer": "Asia"
+          },
+          {
+            "question": "Who was the first person to walk on the moon?",
+            "image": "/images/2.webp",
+            "options": [
+              "Neil Armstrong",
+              "Buzz Aldrin",
+              "Yuri Gagarin",
+              "John Glenn"
+            ],
+            "answer": "Neil Armstrong"
+          },
+          {
+            "question": "What is the capital of Egypt?",
+            "image": "/images/2.webp",
+            "options": ["Cairo", "Alexandria", "Giza", "Luxor"],
+            "answer": "Cairo"
+          },
+          {
+            "question": "Who was the first person to walk on the moon?",
+            "image": "/images/2.webp",
+            "options": [
+              "Neil Armstrong",
+              "Buzz Aldrin",
+              "Yuri Gagarin",
+              "John Glenn"
+            ],
+            "answer": "Neil Armstrong"
+          },
+          {
+            "question": "What is the capital of Canada?",
+            "image": "/images/2.webp",
+            "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+            "answer": "Ottawa"
+          }
+        ]
+      },
+      {
+        "title": "Mathematics Quiz",
+        "img": "/images/2.webp",
+        "difficulty": "Medium",
+        "questions": 8,
+        "plays": 200,
+        "quizQuestions": [
+          {
+            "question": "What is the square root of 16?",
+            "image": "/images/2.webp",
+            "options": ["4", "8", "12", "16"],
+            "answer": "4"
+          },
+          {
+            "question": "What is the square root of 25?",
+            "image": "/images/2.webp",
+            "options": ["5", "10", "15", "20"],
+            "answer": "5"
+          },
+          {
+            "question": "What is the square root of 36?",
+            "image": "/images/2.webp",
+            "options": ["6", "12", "18", "24"],
+            "answer": "6"
+          },
+          {
+            "question": "What is the square root of 49?",
+            "image": "/images/2.webp",
+            "options": ["7", "14", "21", "28"],
+            "answer": "7"
+          },
+          {
+            "question": "What is the square root of 64?",
+            "image": "/images/2.webp",
+            "options": ["8", "16", "24", "32"],
+            "answer": "8"
+          },
+          {
+            "question": "What is the square root of 81?",
+            "image": "/images/2.webp",
+            "options": ["9", "18", "27", "36"],
+            "answer": "9"
+          },
+          {
+            "question": "What is the square root of 100?",
+            "image": "/images/2.webp",
+            "options": ["10", "20", "30", "40"],
+            "answer": "10"
+          },
+          {
+            "question": "What is the square root of 121?",
+            "image": "/images/2.webp",
+            "options": ["11", "22", "33", "44"],
+            "answer": "11"
+          }
+        ]
+      },
+      {
+        "title": "Science and Nature Quiz",
+        "img": "/images/5.webp",
+        "difficulty": "Medium",
+        "questions": 10,
+        "plays": 150,
+        "quizQuestions": [
+          {
+            "question": "What is the largest planet in our solar system?",
+            "image": "/images/2.webp",
+            "options": ["Mars", "Jupiter", "Saturn", "Neptune"],
+            "answer": "Jupiter"
+          },
+          {
+            "question": "What is the smallest planet in our solar system?",
+            "image": "/images/2.webp",
+            "options": ["Mercury", "Venus", "Earth", "Mars"],
+            "answer": "Mercury"
+          },
+          {
+            "question": "What is the largest ocean on Earth?",
+            "image": "/images/2.webp",
+            "options": [
+              "Pacific Ocean",
+              "Atlantic Ocean",
+              "Indian Ocean",
+              "Arctic Ocean"
+            ],
+            "answer": "Pacific Ocean"
+          },
+          {
+            "question": "What is the smallest planet in our solar system?",
+            "image": "/images/2.webp",
+            "options": ["Mercury", "Venus", "Earth", "Mars"],
+            "answer": "Mercury"
+          },
+          {
+            "question": "What is the largest ocean on Earth?",
+            "image": "/images/2.webp",
+            "options": [
+              "Pacific Ocean",
+              "Atlantic Ocean",
+              "Indian Ocean",
+              "Arctic Ocean"
+            ],
+            "answer": "Pacific Ocean"
+          },
+          {
+            "question": "What is the smallest planet in our solar system?",
+            "image": "/images/2.webp",
+            "options": ["Mercury", "Venus", "Earth", "Mars"],
+            "answer": "Mercury"
+          }
+        ]
+      },
+      {
+        "title": "History and Politics Quiz",
+        "img": "/images/4.webp",
+        "difficulty": "Hard",
+        "questions": 12,
+        "plays": 100,
+        "quizQuestions": [
+          {
+            "question": "Who was the first president of the United States?",
+            "image": "/images/2.webp",
+            "options": [
+              "George Washington",
+              "Thomas Jefferson",
+              "John Adams",
+              "Abraham Lincoln"
+            ],
+            "answer": "George Washington"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Advanced Section",
+    "quizzes": [
+      {
+        "title": "Physics Quiz",
+        "img": "/images/5.webp",
+        "difficulty": "Hard",
+        "questions": 6,
+        "plays": 100,
+        "quizQuestions": [
+          {
+            "question": "What is the speed of light in a vacuum?",
+            "options": [
+              "3.00 x 10^8 m/s",
+              "1.50 x 10^8 m/s",
+              "2.99 x 10^8 m/s",
+              "3.00 x 10^6 m/s"
+            ],
+            "answer": "3.00 x 10^8 m/s"
+          },
+          {
+            "question": "Who formulated the laws of motion?",
+            "options": [
+              "Isaac Newton",
+              "Albert Einstein",
+              "Galileo Galilei",
+              "Niels Bohr"
+            ],
+            "answer": "Isaac Newton"
+          },
+          {
+            "question": "What is the unit of force?",
+            "options": ["Newton", "Joule", "Watt", "Pascal"],
+            "answer": "Newton"
+          },
+          {
+            "question": "What is the principle of conservation of energy?",
+            "options": [
+              "Energy cannot be created or destroyed, only transformed",
+              "Energy can be created from nothing",
+              "Energy can be destroyed",
+              "Energy is always constant"
+            ],
+            "answer": "Energy cannot be created or destroyed, only transformed"
+          },
+          {
+            "question": "What is the formula for kinetic energy?",
+            "options": ["(1/2)mv^2", "(1/2)mv", "(1/2)m^2v^2", "(1/2)mv^3"],
+            "answer": "(1/2)mv^2"
+          },
+          {
+            "question": "What is the unit of electric current?",
+            "options": ["Volt", "Ohm", "Ampere", "Watt"],
+            "answer": "Ampere"
+          }
+        ]
+      },
+      {
+        "title": "Chemistry Quiz",
+        "img": "/images/4.webp",
+        "difficulty": "Medium",
+        "questions": 10,
+        "plays": 120,
+        "quizQuestions": [
+          {
+            "question": "What is the chemical symbol for water?",
+            "options": ["H2O", "O2", "CO2", "NaCl"],
+            "answer": "H2O"
+          },
+          {
+            "question": "What is the chemical symbol for sodium chloride?",
+            "options": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+            "answer": "NaCl"
+          },
+          {
+            "question": "What is the chemical symbol for potassium chloride?",
+            "options": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+            "answer": "KCl"
+          },
+          {
+            "question": "What is the chemical symbol for calcium chloride?",
+            "options": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+            "answer": "CaCl2"
+          },
+          {
+            "question": "What is the chemical symbol for magnesium chloride?",
+            "options": ["NaCl", "KCl", "CaCl2", "MgCl2"],
+            "answer": "MgCl2"
+          },
+          {
+            "question": "What is the chemical symbol for carbon dioxide?",
+            "options": ["CO2", "O2", "H2O", "NaCl"],
+            "answer": "CO2"
+          },
+          {
+            "question": "What is the chemical symbol for oxygen?",
+            "options": ["O2", "H2O", "CO2", "NaCl"],
+            "answer": "O2"
+          },
+          {
+            "question": "What is the chemical symbol for hydrogen?",
+            "options": ["H2", "O2", "CO2", "NaCl"],
+            "answer": "H2"
+          },
+          {
+            "question": "What is the chemical symbol for nitrogen?",
+            "options": ["N2", "O2", "CO2", "NaCl"],
+            "answer": "N2"
+          },
+          {
+            "question": "What is the chemical symbol for sulfur?",
+            "options": ["S8", "O2", "CO2", "NaCl"],
+            "answer": "S8"
+          }
+        ]
+      },
+      {
+        "title": "Biology and Physics Quiz",
+        "img": "/images/6.webp",
+        "difficulty": "Easy",
+        "questions": 15,
+        "plays": 140,
+        "quizQuestions": [
+          {
+            "question": "What is the powerhouse of the cell?",
+            "options": [
+              "Nucleus",
+              "Mitochondria",
+              "Ribosome",
+              "Endoplasmic Reticulum"
+            ],
+            "answer": "Mitochondria"
+          },
+          {
+            "question": "What is the basic unit of life?",
+            "options": ["Atom", "Molecule", "Cell", "Tissue"],
+            "answer": "Cell"
+          },
+          {
+            "question": "What is the process by which plants make their food?",
+            "options": [
+              "Photosynthesis",
+              "Respiration",
+              "Transpiration",
+              "Digestion"
+            ],
+            "answer": "Photosynthesis"
+          },
+          {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Heart", "Liver", "Skin", "Lungs"],
+            "answer": "Skin"
+          },
+          {
+            "question": "What is the study of living organisms called?",
+            "options": ["Biology", "Chemistry", "Physics", "Geology"],
+            "answer": "Biology"
+          },
+          {
+            "question": "What is the process by which plants make their food?",
+            "options": [
+              "Photosynthesis",
+              "Respiration",
+              "Transpiration",
+              "Digestion"
+            ],
+            "answer": "Photosynthesis"
+          },
+          {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Heart", "Liver", "Skin", "Lungs"],
+            "answer": "Skin"
+          },
+          {
+            "question": "What is the study of living organisms called?",
+            "options": ["Biology", "Chemistry", "Physics", "Geology"],
+            "answer": "Biology"
+          },
+          {
+            "question": "What is the basic unit of life?",
+            "options": ["Atom", "Molecule", "Cell", "Tissue"],
+            "answer": "Cell"
+          },
+          {
+            "question": "What is the process by which plants make their food?",
+            "options": [
+              "Photosynthesis",
+              "Respiration",
+              "Transpiration",
+              "Digestion"
+            ],
+            "answer": "Photosynthesis"
+          },
+          {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Heart", "Liver", "Skin", "Lungs"],
+            "answer": "Skin"
+          },
+          {
+            "question": "What is the study of living organisms called?",
+            "options": ["Biology", "Chemistry", "Physics", "Geology"],
+            "answer": "Biology"
+          },
+          {
+            "question": "What is the basic unit of life?",
+            "options": ["Atom", "Molecule", "Cell", "Tissue"],
+            "answer": "Cell"
+          },
+          {
+            "question": "What is the process by which plants make their food?",
+            "options": [
+              "Photosynthesis",
+              "Respiration",
+              "Transpiration",
+              "Digestion"
+            ],
+            "answer": "Photosynthesis"
+          },
+          {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Heart", "Liver", "Skin", "Lungs"],
+            "answer": "Skin"
+          },
+          {
+            "question": "What is the study of living organisms called?",
+            "options": ["Biology", "Chemistry", "Physics", "Geology"],
+            "answer": "Biology"
+          }
+        ]
+      },
+      {
+        "title": "Chemistry Quiz",
+        "img": "/images/4.webp",
+        "difficulty": "Medium",
+        "questions": 10,
+        "plays": 120,
+        "quizQuestions": [
+          {
+            "question": "What is the chemical symbol for water?",
+            "options": ["H2O", "CO2", "O2", "NaCl"],
+            "answer": "H2O"
+          },
+          {
+            "question": "What is the speed of light?",
+            "options": [
+              "299,792,458 m/s",
+              "150,000,000 m/s",
+              "3,000,000 m/s",
+              "1,000,000 m/s"
+            ],
+            "answer": "299,792,458 m/s"
+          },
+          {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["Au", "Ag", "Pb", "Fe"],
+            "answer": "Au"
+          },
+          {
+            "question": "What is the process by which plants make their food?",
+            "options": [
+              "Photosynthesis",
+              "Respiration",
+              "Transpiration",
+              "Digestion"
+            ],
+            "answer": "Photosynthesis"
+          },
+          {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Heart", "Liver", "Skin", "Lungs"],
+            "answer": "Skin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Specialized Section",
+    "quizzes": [
+      {
+        "title": "Art History Quiz",
+        "img": "/images/7.webp",
+        "difficulty": "Medium",
+        "questions": 12,
+        "plays": 90,
+        "quizQuestions": [
+          {
+            "question": "Who painted the Sistine Chapel ceiling?",
+            "options": [
+              "Michelangelo",
+              "Leonardo da Vinci",
+              "Raphael",
+              "Caravaggio"
+            ],
+            "answer": "Michelangelo"
+          },
+          {
+            "question": "What is the primary medium used in oil painting?",
+            "options": ["Water", "Oil", "Acrylic", "Gouache"],
+            "answer": "Oil"
+          },
+          {
+            "question": "Which artist is known for the painting 'The Starry Night'?",
+            "options": [
+              "Vincent van Gogh",
+              "Pablo Picasso",
+              "Claude Monet",
+              "Edvard Munch"
+            ],
+            "answer": "Vincent van Gogh"
+          },
+          {
+            "question": "What is the term for a painting done on wet plaster?",
+            "options": ["Fresco", "Mural", "Canvas", "Tempera"],
+            "answer": "Fresco"
+          },
+          {
+            "question": "Who is known as the father of modern art?",
+            "options": [
+              "Pablo Picasso",
+              "Henri Matisse",
+              "Paul Cézanne",
+              "Georges Braque"
+            ],
+            "answer": "Paul Cézanne"
+          },
+          {
+            "question": "What is the primary color that cannot be created by mixing other colors?",
+            "options": ["Red", "Blue", "Yellow", "Green"],
+            "answer": "Red"
+          },
+          {
+            "question": "Which artist is known for the painting 'The Persistence of Memory'?",
+            "options": [
+              "Salvador Dalí",
+              "René Magritte",
+              "Max Ernst",
+              "Joan Miró"
+            ],
+            "answer": "Salvador Dalí"
+          },
+          {
+            "question": "What is the term for a painting done on a wooden panel?",
+            "options": ["Panel painting", "Canvas painting", "Fresco", "Mural"],
+            "answer": "Panel painting"
+          },
+          {
+            "question": "Who painted 'The Birth of Venus'?",
+            "options": [
+              "Sandro Botticelli",
+              "Raphael",
+              "Leonardo da Vinci",
+              "Michelangelo"
+            ],
+            "answer": "Sandro Botticelli"
+          },
+          {
+            "question": "What is the term for a painting that depicts a scene from everyday life?",
+            "options": [
+              "Genre painting",
+              "Landscape painting",
+              "Portrait painting",
+              "Still life"
+            ],
+            "answer": "Genre painting"
+          },
+          {
+            "question": "Who is known for the painting 'The Starry Night'?",
+            "options": [
+              "Vincent van Gogh",
+              "Pablo Picasso",
+              "Claude Monet",
+              "Edvard Munch"
+            ],
+            "answer": "Vincent van Gogh"
+          },
+          {
+            "question": "What is the term for a painting that depicts a scene from everyday life?",
+            "options": [
+              "Genre painting",
+              "Landscape painting",
+              "Portrait painting",
+              "Still life"
+            ],
+            "answer": "Genre painting"
+          }
+        ]
+      },
+      {
+        "title": "Music Quiz",
+        "img": "/images/10.webp",
+        "difficulty": "Easy",
+        "questions": 10,
+        "plays": 150,
+        "quizQuestions": [
+          {
+            "question": "Who is known as the King of Pop?",
+            "options": [
+              "Elvis Presley",
+              "Michael Jackson",
+              "Prince",
+              "Madonna"
+            ],
+            "answer": "Michael Jackson"
+          },
+          {
+            "question": "What is the highest-selling album of all time?",
+            "options": [
+              "The Beatles - Abbey Road",
+              "Michael Jackson - Thriller",
+              "Pink Floyd - The Dark Side of the Moon",
+              "Eagles - Their Greatest Hits"
+            ],
+            "answer": "The Beatles - Abbey Road"
+          },
+          {
+            "question": "What is the best-selling single of all time?",
+            "options": [
+              "Elvis Presley - Can't Help Falling in Love",
+              "The Beatles - Hey Jude",
+              "Whitney Houston - I Will Always Love You",
+              "Mariah Carey - All I Want for Christmas Is You"
+            ],
+            "answer": "Elvis Presley - Can't Help Falling in Love"
+          },
+          {
+            "question": "What is the highest-grossing film of all time?",
+            "options": [
+              "Avatar",
+              "Titanic",
+              "Star Wars: The Force Awakens",
+              "Avengers: Endgame"
+            ],
+            "answer": "Avatar"
+          },
+          {
+            "question": "What is the term for a film that is based on a true story?",
+            "options": ["Documentary", "Biopic", "Drama", "Thriller"],
+            "answer": "Biopic"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          }
+        ]
+      },
+      {
+        "title": "Film Quiz",
+        "img": "/images/8.webp",
+        "difficulty": "Hard",
+        "questions": 20,
+        "plays": 130,
+        "quizQuestions": [
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": ["TV Movie", "Miniseries", "Documentary", "Hiii"],
+            "answer": "TV Movie"
+          }
+        ]
+      },
+      {
+        "title": "Sports Quiz",
+        "img": "/images/10.webp",
+        "difficulty": "Medium",
+        "questions": 15,
+        "plays": 170,
+        "quizQuestions": [
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Seasonal Section",
+    "quizzes": [
+      {
+        "title": "Halloween Quiz",
+        "img": "/images/3.jpg",
+        "difficulty": "Medium",
+        "questions": 5,
+        "plays": 200,
+        "quizQuestions": [
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          },
+          {
+            "question": "What is the term for a film that is made for television?",
+            "options": [
+              "TV Movie",
+              "Miniseries",
+              "Documentary",
+              "Feature Film"
+            ],
+            "answer": "TV Movie"
+          }
+        ]
+      }
+    ]
+  }
+]

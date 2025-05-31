@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "name": "Alex Thompson",
+      "score": 950,
+      "quizTitle": "Science and Technology Quiz",
+      "timestamp": 1710835200000,
+      "avatar": "/avatars/1.png"
+    },
+    {
+      "name": "Sarah Chen",
+      "score": 920,
+      "quizTitle": "Mathematics and Logic Quiz",
+      "timestamp": 1710748800000,
+      "avatar": "/avatars/2.png"
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "score": 890,
+      "quizTitle": "History and Geography Quiz",
+      "timestamp": 1710662400000,
+      "avatar": "/avatars/3.png"
+    },
+    {
+      "name": "Emma Wilson",
+      "score": 870,
+      "quizTitle": "General Knowledge Quiz",
+      "timestamp": 1710576000000,
+      "avatar": "/avatars/4.png"
+    },
+    {
+      "name": "James Kumar",
+      "score": 850,
+      "quizTitle": "Science and Technology Quiz",
+      "timestamp": 1710489600000,
+      "avatar": "/avatars/5.png"
+    },
+    {
+      "name": "Sophia Lee",
+      "score": 830,
+      "quizTitle": "Mathematics and Logic Quiz",
+      "timestamp": 1710403200000,
+      "avatar": "/avatars/6.png"
+    },
+    {
+      "name": "Noah Patel",
+      "score": 810,
+      "quizTitle": "History and Geography Quiz",
+      "timestamp": 1710316800000,
+      "avatar": "/avatars/7.png"
+    },
+    {
+      "name": "Olivia Martinez",
+      "score": 790,
+      "quizTitle": "General Knowledge Quiz",
+      "timestamp": 1710230400000,
+      "avatar": "/avatars/8.png"
+    },
+    {
+      "name": "Lucas Anderson",
+      "score": 770,
+      "quizTitle": "Science and Technology Quiz",
+      "timestamp": 1710144000000,
+      "avatar": "/avatars/9.png"
+    },
+    {
+      "name": "Isabella Kim",
+      "score": 750,
+      "quizTitle": "Mathematics and Logic Quiz",
+      "timestamp": 1710057600000,
+      "avatar": "/avatars/10.png"
+    },
+    {
+      "name": "Ethan Brown",
+      "score": 730,
+      "quizTitle": "History and Geography Quiz",
+      "timestamp": 1709971200000,
+      "avatar": "/avatars/1.png"
+    },
+    {
+      "name": "Ava Garcia",
+      "score": 710,
+      "quizTitle": "General Knowledge Quiz",
+      "timestamp": 1709884800000,
+      "avatar": "/avatars/2.png"
+    },
+    {
+      "name": "Mason Taylor",
+      "score": 690,
+      "quizTitle": "Science and Technology Quiz",
+      "timestamp": 1709798400000,
+      "avatar": "/avatars/3.png"
+    },
+    {
+      "name": "Charlotte White",
+      "score": 670,
+      "quizTitle": "Mathematics and Logic Quiz",
+      "timestamp": 1709712000000,
+      "avatar": "/avatars/4.png"
+    },
+    {
+      "name": "William Johnson",
+      "score": 650,
+      "quizTitle": "History and Geography Quiz",
+      "timestamp": 1709625600000,
+      "avatar": "/avatars/5.png"
+    }
+  ]
+}
