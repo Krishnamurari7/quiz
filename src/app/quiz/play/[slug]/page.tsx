@@ -116,7 +116,7 @@ export default function QuizPage() {
     clearTimeout(autoNextTimeout.current!);
     autoNextTimeout.current = setTimeout(() => {
       current < quizData.length - 1 ? goToNextQuestion() : handleSubmit();
-    }, 2000);
+    }, 5000);
   };
 
   const handleSelect = (option: string, e: React.MouseEvent) => {
@@ -164,7 +164,7 @@ export default function QuizPage() {
   };
 
   const triggerCoinAnimation = () => {
-    setTimeout(() => setCoinPosition(null), 800);
+    setTimeout(() => setCoinPosition(null), 0);
   };
 
   useEffect(() => () => {
@@ -238,8 +238,8 @@ export default function QuizPage() {
 
       <AnimatePresence>
         {coinPosition && (
-          <motion.div className="absolute z-50 text-yellow-300 text-2xl" initial={{ x: 0, y: 0, opacity: 1, scale: 1 }} animate={{ x: coinPosition.x, y: coinPosition.y, opacity: 0, scale: 1.5 }} exit={{ opacity: 0 }} transition={{ duration: 0.5, ease: "easeOut" }} style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-            🪙
+          <motion.div className="absolute z-50 text-yellow-300 text-2xl" initial={{ x: 0, y: 0, opacity: 1, scale: 1 }} animate={{ x: coinPosition.x, y: coinPosition.y, opacity: 1, scale: 1.5 }} exit={{ opacity: 1 , scale: 1 }} transition={{ duration: 0.5, ease: "easeOut" }} style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+            🪙🪙🪙
           </motion.div>
         )}
       </AnimatePresence>
