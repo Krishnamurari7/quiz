@@ -4,6 +4,8 @@ import { useParams, useRouter } from 'next/navigation';
 import dummySections from "@/data/dummySection.json";
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
+import { FaVolumeUp, FaVolumeMute } from 'react-icons/fa';
+
 
 interface QuizQuestion {
   question: string;
@@ -22,12 +24,6 @@ const optionVariants = {
   hidden: { opacity: 0, x: -20 },
   visible: { opacity: 1, x: 0, transition: { duration: 0.3 } },
 };
-
-const staggerOptionsVariants = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
-};
-
 export default function QuizPage() {
   const params = useParams();
   const router = useRouter();
@@ -44,6 +40,35 @@ export default function QuizPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
   const [questionTime, setQuestionTime] = useState(0);
+  const [isMusicPlaying, setIsMusicPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+  audioRef.current = new Audio('/background-music.mp3');
+  audioRef.current.loop = true;
+
+  return () => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+  };
+}, []);
+
+const toggleMusic = () => {
+  if (!audioRef.current) return;
+
+  if (isMusicPlaying) {
+    audioRef.current.pause();
+    alert('Background music turned off');
+  } else {
+    audioRef.current.play().catch(err => console.log('Play error:', err));
+    alert('Background music turned on');
+  }
+  setIsMusicPlaying(!isMusicPlaying);
+};
+
+  
 
   const autoNextTimeout = useRef<NodeJS.Timeout | null>(null);
   const scoreRef = useRef<HTMLDivElement>(null);
@@ -96,6 +121,7 @@ export default function QuizPage() {
     }
     return () => clearInterval(questionTimerInterval.current!);
   }, [isLoading, current, quizData.length, questionStartTime]);
+
 
   const goToNextQuestion = () => {
     const correct = quizData[current].answer === (selected || '');
@@ -192,15 +218,31 @@ export default function QuizPage() {
 
   return (
     <div className="min-h-screen bg-[#18333a] text-white flex flex-col items-center p-4 sm:p-6 relative overflow-hidden">
+      
       <header className="w-full max-w-4xl flex justify-between items-center py-4 relative z-10">
-        <motion.h1 className="text-xl md:text-2xl font-bold text-yellow-400 truncate">
-          {quizTitle}
-        </motion.h1>
-        <motion.div ref={scoreRef} className="flex items-center space-x-2 bg-purple-600 rounded-full px-3 py-1 text-sm sm:text-base font-bold shadow-md">
-          <span>{score}</span>
-          <span className="text-yellow-300 text-lg">🪙</span>
-        </motion.div>
-      </header>
+  <motion.h1 className="text-xl md:text-2xl font-bold text-yellow-400 truncate">
+    {quizTitle}
+  </motion.h1>
+  
+  <div className="flex items-center space-x-4">
+    <motion.div 
+      ref={scoreRef} 
+      className="flex items-center space-x-2 bg-purple-600 rounded-full px-3 py-1 text-sm sm:text-base font-bold shadow-md"
+    >
+      <span>{score}</span>
+      <span className="text-yellow-300 text-lg">🪙</span>
+    </motion.div>
+
+    <motion.button 
+      onClick={toggleMusic} 
+      className="text-yellow-300 text-2xl p-2 hover:bg-[#2b4956] rounded-full transition-all"
+      aria-label="Toggle Background Music"
+    >
+      {isMusicPlaying ? <FaVolumeUp /> : <FaVolumeMute />}
+    </motion.button>
+  </div>
+</header>
+
 
       <AnimatePresence mode="wait">
         <motion.main key={current} variants={questionCardVariants} initial="hidden" animate="visible" exit="exit" className="w-full max-w-2xl bg-[#1a3a42] rounded-2xl p-4 sm:p-6 shadow-2xl relative z-10 flex flex-col items-center">
